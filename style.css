@@ -1,0 +1,124 @@
+/********************
+        RESET
+********************/
+
+*
+{
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+}
+
+body
+{
+
+    line-height: 1.6;
+
+    /***********************************************
+
+        This makes text easier to read on Chrome
+        and Safari.
+
+    ***********************************************/
+    -webkit-font-smoothing: antialiased;
+
+    /***********************************************
+
+        This changes the color of font from black
+        to a soft-black/gray so that the contrast
+        between the dark font-colorr and white
+        background-color is less harsh and easier
+        to read.
+
+    ***********************************************/
+    color: #444444;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg
+{
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select
+{
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    overflow-wrap: break-word;
+}
+
+p
+{
+    text-wrap: pretty;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    margin: revert;
+    text-wrap: balance;
+}
+
+.body-content
+{
+    max-width: 650px;
+}
+
+/********************
+********************/
+
+body
+{
+
+    font-family: "Courier New", monospace;
+
+}
+
+.website-header
+{
+
+    text-align: center;
+
+}
