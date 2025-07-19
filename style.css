@@ -265,5 +265,24 @@ h2
 .degree-summary
 {
     margin-bottom: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
 }
 
+.school-logo
+{
+    width: 100%;
+    height: 100%;
+}
+
+.degree-summary-child-left
+{
+    width: 60%;
+}
+
+.degree-summary-child-right
+{
+    width: 40%;
+}
