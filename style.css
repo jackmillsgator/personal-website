@@ -239,3 +239,25 @@ h2
 {
     margin-bottom: 100px;
 }
+
+.technical-skills-child
+{
+
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.left
+{
+    flex-grow: 1;
+    width: 40%;
+}
+
+.right
+{
+
+    flex-grow: 1;
+    width: 60%;
+
+}
